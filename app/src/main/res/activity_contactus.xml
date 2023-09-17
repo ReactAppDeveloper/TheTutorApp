@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView4"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/registerlayout">
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+                <EditText
+                    android:id="@+id/edt_student_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15dp"
+                    android:hint="Student Name"
+                    android:drawableLeft="@drawable/contactus"
+                    android:background="@color/edittxt"
+                    android:textColorHint="#be3636" />
+                <EditText
+                    android:id="@+id/edt_student_father_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Student Father Name"
+                    android:drawableLeft="@drawable/contactus1"
+                    android:background="@color/edittxt"
+                    android:textColorHint="#be3636" />
+
+                <EditText
+                    android:id="@+id/edt_student_mobile_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Mobile No"
+                    android:drawableLeft="@drawable/contactus2"
+                    android:background="@color/edittxt"
+                    android:textColorHint="#be3636" />
+                <EditText
+                    android:id="@+id/edt_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Message"
+                    android:paddingBottom="70dp"
+                    android:background="@color/edittxt"
+                    android:textColorHint="#be3636" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:id="@+id/btn_submit"
+                android:layout_below="@+id/user_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:background="#BE3636"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="0342-6805446"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:paddingLeft="80dp"
+            android:drawableLeft="@drawable/contactus3"
+            android:textSize="20dp"
+            android:paddingTop="7dp"
+            android:drawablePadding="-100dp"
+            android:textColor="#BE3636"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="12dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

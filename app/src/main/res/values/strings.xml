@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">TheTutor</string>
+    <string name="title_activity_navigation">The Tutor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="facebookappid">257657958069458</string>
+    <string name="action_settings">Logout</string>
+
+    <string-array name="user_category">
+
+        <item>Please Select any option</item>
+
+        <item>Tutor</item>
+        <item>Student</item>
+        <item>Parents</item>
+    </string-array>
+    <string-array name="choose_category">
+        <item>Please Select Any Category</item>
+        <item>Class</item>
+        <item>Skills</item>
+        <item>Subjects</item>
+    </string-array>
+    <string-array name="tutor_gender">
+
+        <item>Gender</item>
+
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="tutor_qualification">
+
+        <item>Please Select Your Qualification</item>
+        <item>Ph.D</item>
+        <item>M.Phil</item>
+        <item>Master</item>
+        <item>Bachelor</item>
+        <item>Diploma and Certificates</item>
+        <item>Intermediate</item>
+        <item>A-Level</item>
+        <item>Other</item>
+
+    </string-array>
+    <string-array name="tutor_exp">
+
+        <item>Please Select Your Experience</item>
+        <item>1-2 Years</item>
+        <item>3-4 Years</item>
+        <item>5-6 Years</item>
+        <item>7-8 Years</item>
+        <item>9-10 Years</item>
+        <item>More than 10</item>
+    </string-array>
+    <string-array name="class_level">
+        <item>Please Select Your Class</item>
+        <item></item>
+        <item>Pre School</item>
+        <item>Primary</item>
+        <item>Middle</item>
+        <item>Matric</item>
+        <item>Intermediate</item>
+        <item>O Level</item>
+        <item>A Level</item>
+        <item>Bachelor</item>
+        <item>Test Prepration</item>
+    </string-array>
+
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+
+
+</resources>

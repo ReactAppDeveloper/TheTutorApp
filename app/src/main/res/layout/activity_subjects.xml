@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:weightSum="1"
+    android:background="@color/edittxt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/logo1"
+        android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click on any Subject for which\n you need Tutor"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/toolbar"
+            android:layout_marginTop="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/edittxt">
+
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="English"
+            android:id="@+id/button"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Mathematics"
+            android:id="@+id/button1"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/toolbar"
+            android:drawableTop="@drawable/subjectpanel1"
+            android:drawablePadding="-15dp"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Physics"
+            android:id="@+id/button2"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel2"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/edittxt">
+
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Chemistry"
+            android:id="@+id/button3"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel3"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Biology"
+            android:id="@+id/button4"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel4"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Zoology"
+            android:id="@+id/button5"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel5"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/edittxt">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Botany"
+            android:id="@+id/button6"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel3"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Computer Science"
+            android:id="@+id/button7"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel7"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+             <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Pakisatan Studies"
+            android:id="@+id/button8"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel8"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/edittxt">
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Urdu"
+            android:id="@+id/button9"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel9"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Islamiat"
+            android:id="@+id/button10"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel10"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:text="Sindhi"
+            android:id="@+id/button11"
+            android:layout_weight="0.1"
+            android:background="@drawable/round_btn1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:drawableTop="@drawable/subjectpanel11"
+            android:drawablePadding="-15dp"
+            android:textColor="@color/toolbar"
+            android:layout_gravity="left"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/edittxt">
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="110dp"
+                android:text="BioChemistry"
+                android:id="@+id/button12"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_biochemistry"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="110dp"
+                android:text="Business Administrator"
+                android:id="@+id/button13"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_businessadministration"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="110dp"
+                android:text="Business Communication"
+                android:id="@+id/button14"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_businesscommunication"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/edittxt">
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="Business Law"
+                android:id="@+id/button15"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_businesslaw"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="Civic"
+                android:id="@+id/button16"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_civic"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="Commerce"
+                android:id="@+id/button17"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_commerce"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/edittxt">
+
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="Economics"
+                android:id="@+id/button18"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_economics"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="General Science"
+                android:id="@+id/button19"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_generalscience"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+            <Button
+                android:layout_width="90dp"
+                android:layout_height="100dp"
+                android:text="Statistics"
+                android:id="@+id/button20"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/ic_statistics"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

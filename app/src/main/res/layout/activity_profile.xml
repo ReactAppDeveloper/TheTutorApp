@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/edittxt">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/yellow"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="170dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="0.6dp" />
+
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_above="@+id/editText"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/button"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/camera"
+                android:textColor="@color/txtcolor"
+                android:textSize="9dp"
+                android:visibility="gone"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical|fill_horizontal"
+                android:foregroundGravity="center"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Please Select an Image"
+                android:textColor="@color/edittxt"
+                android:visibility="gone"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal">
+
+                <EditText
+                    android:id="@+id/user_id"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/edittxt"
+                    android:drawableStart="@drawable/profile"
+                    android:hint="ID"
+                    android:textColorHint="#be3636" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Name"/>
+                <EditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="15dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:hint="Name"
+                    android:background="@drawable/button_rounded"
+                    android:textColorHint="#FF7F7E7E" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:text="Mobile No"/>
+                <EditText
+                    android:id="@+id/edt_mobile_no"
+                    android:layout_width="match_parent"
+                    android:inputType="phone"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:layout_below="@+id/imageView2"
+                    android:layout_centerHorizontal="true"
+                    android:hint="Please update you cell no"
+                    android:background="@drawable/button_rounded"
+                    android:textColorHint="#FF7F7E7E" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:text="Password"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/button_rounded"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:textColorHint="#FF7F7E7E"
+                    android:paddingLeft="15dp"
+                    android:drawablePadding="10dp"
+                    android:id="@+id/user_pass"
+                    android:layout_marginTop="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:id="@+id/btn_send"
+                android:layout_below="@+id/user_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="@color/toolbar"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
