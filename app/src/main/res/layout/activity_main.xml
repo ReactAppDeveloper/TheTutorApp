@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/loginyellow">
+            <EditText
+                android:id="@+id/user_id"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:drawablePadding="10dp"
+                android:hint="Username"
+                android:background="@drawable/button_login"
+                android:textColorHint="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:inputType="textPassword"
+                android:background="@drawable/button_login"
+                android:ems="10"
+                android:hint="Password"
+                android:textColorHint="#FFFFFF"
+                android:drawablePadding="10dp"
+                android:id="@+id/user_pass"
+                android:layout_marginTop="10dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:id="@+id/btn_login"
+                android:layout_below="@+id/user_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="#FFFFFF"
+                android:textColor="#FFF2E33B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="----------   OR    ----------"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:id="@+id/btn_sign_up"
+                android:layout_below="@+id/user_pass"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:textColor="#FFF2E33B"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="horizontal">
+                <!--<Button-->
+                    <!--android:layout_width="150dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:id="@+id/login_button"-->
+                    <!--android:layout_below="@+id/user_pass"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:layout_gravity="bottom|center_horizontal"-->
+                    <!--android:background="@drawable/facebook" />-->
+                <com.facebook.login.widget.LoginButton
+                    android:layout_height="50dp"
+                    android:layout_width="178dp"
+                    android:id="@+id/login_button"
+                    >
+                </com.facebook.login.widget.LoginButton>
+                <Button
+                    android:layout_width="108dp"
+                    android:layout_height="25dp"
+                    android:id="@+id/bn_login"
+                    android:layout_below="@+id/user_pass"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@drawable/google"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="6.4dp"/>
+                <!--<com.google.android.gms.common.SignInButton-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:id="@+id/bn_login"-->
+                    <!--&gt;-->
+                <!--</com.google.android.gms.common.SignInButton>-->
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>

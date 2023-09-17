@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "838857835826",
+    "project_id": "muhammad-firstapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838857835826:android:30c7f9b24be85a5e",
+        "android_client_info": {
+          "package_name": "expence.ubiad.example.com.thetutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "838857835826-v08jkmco7r3ms99cmjbsj0t8fuaav652.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "expence.ubiad.example.com.thetutor",
+            "certificate_hash": "8d44b9589505540f156b52eec543e88a2348a69a"
+          }
+        },
+        {
+          "client_id": "838857835826-r3pvatg265dk5de4mdqem8134gc4up7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkMY1xXEgK0dC1S4Qbo1iKlWZ4DEHE5Ug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

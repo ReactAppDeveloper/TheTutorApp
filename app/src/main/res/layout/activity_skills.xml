@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="90dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/logo1"
+            android:layout_marginTop="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click on any Skill for which\n you need Tutor"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            android:textColor="@color/toolbar"
+            android:layout_marginTop="15dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/edittxt">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="English Language"
+                android:id="@+id/button"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/subjectpanel2"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+               />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Computer Programming"
+                android:id="@+id/button1"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/toolbar"
+                android:drawableTop="@drawable/skillpanel"
+                android:drawablePadding="-15dp"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Web Programming"
+                android:id="@+id/button2"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel1"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edittxt">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Graphics Designing"
+                android:id="@+id/button3"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel2"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Painting"
+                android:id="@+id/button4"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/toolbar"
+                android:drawableTop="@drawable/skillpanel3"
+                android:drawablePadding="-15dp"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                 />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Clothes Sewing"
+                android:id="@+id/button5"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel4"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edittxt">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Beautician Training"
+                android:id="@+id/button6"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel5"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                 />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Coocking"
+                android:id="@+id/button7"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/toolbar"
+                android:drawableTop="@drawable/skillpanel6"
+                android:drawablePadding="-15dp"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+                />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Quran Reciting"
+                android:id="@+id/button8"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel7"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp"
+               />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/edittxt">
+
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Judo Karate And Self Defence"
+                android:id="@+id/button9"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel8"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Yoga"
+                android:id="@+id/button10"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/toolbar"
+                android:drawableTop="@drawable/skillpanel9"
+                android:drawablePadding="-15dp"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+            <Button
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:text="Confidence Building"
+                android:id="@+id/button11"
+                android:layout_weight="0.1"
+                android:background="@drawable/round_btn1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:drawableTop="@drawable/skillpanel10"
+                android:drawablePadding="-15dp"
+                android:textColor="@color/toolbar"
+                android:layout_gravity="left"
+                android:textSize="12dp" />
+
+        </LinearLayout>
+        </LinearLayout>
+</ScrollView>
